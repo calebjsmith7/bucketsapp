@@ -50,7 +50,7 @@ export default function NotificationService() {
           hour: 8, // 8 AM
           minute: 30, // Adjust time if testing
           repeats: true, // Ensure it repeats daily
-          type: "daily",
+          type: "calendar",
         },
       });
 
